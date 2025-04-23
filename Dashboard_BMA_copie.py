@@ -1101,10 +1101,11 @@ with tab6:
             st.warning("Aucun bonus trouvé pour cette période.")
     else:
         st.warning("La date de fin doit être supérieure ou égale à la date de début.")
-
+"""
     # Définition du chemin vers le répertoire 'data' dans le dossier cible
     data_dir = "/Users/i-a/Documents/Coding/Dashboard/data"
     os.makedirs(data_dir, exist_ok=True)
+"""    
 """
     # Sauvegarde des données dans le fichier CSV
     data['bonus'].to_csv(f"{data_dir}/bonus.csv", index=False)
