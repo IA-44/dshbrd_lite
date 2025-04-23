@@ -182,7 +182,7 @@ def generate_sample_data():
     if "bonus" not in data:
         data["bonus"] = pd.DataFrame()
     data["bonus"] = pd.concat([data["bonus"], bonus_df], ignore_index=True)
-
+"""
     # Interface utilisateur pour ajouter des bonus
     with st.expander("Ajouter un Bonus"):
         col1, col2 = st.columns(2)
@@ -203,7 +203,7 @@ def generate_sample_data():
                     'description': [new_description]
                 })
             ])
-
+"""
     # Section pour visualiser les bonus
     with st.expander("Analyse des Bonus"):
         col1, col2 = st.columns(2)
