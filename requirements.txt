@@ -3,7 +3,6 @@ pandas
 matplotlib
 streamlit
 plotly
-calendar
 io
 datetime
 base64
