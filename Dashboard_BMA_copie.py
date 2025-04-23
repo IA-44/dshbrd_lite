@@ -232,11 +232,11 @@ def generate_sample_data():
                              })
             else:
                 st.info("Aucun bonus enregistré pour l'instant.")
-
+"""
     # Sauvegarde dans le fichier CSV
     data['bonus'].to_csv(f"{data_dir}/bonus.csv", index=False)
     st.success("Bonus ajouté avec succès !")
-
+"""
     # Visualisation des bonus existants
     st.subheader("Historique des Bonus")
     st.dataframe(data['bonus'], use_container_width=True)
