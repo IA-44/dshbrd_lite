@@ -1,4 +1,3 @@
-/dshbrd_lite/__init__.py
 numpy
 pandas
 matplotlib
